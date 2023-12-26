@@ -33,7 +33,7 @@ public class Books extends BaseClass{
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		driver.get("https://books-pwakit.appspot.com/com");
+		driver.get("https://books-pwakit.appspot.com");
 		
 
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
